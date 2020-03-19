@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<!--
+Created using JS Bin
+http://jsbin.com
+
+Copyright (c) 2020 by tamasisandor2014 (http://jsbin.com/gonekaw/13/edit)
+
+Released under the MIT license: http://jsbin.mit-license.org
+-->
+<meta name="robots" content="noindex">
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Attila Nagy</title>
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<style id="jsbin-css">
+/* CSS reset */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 100%;
+}
+
+.profile-card {
+/*  background-color: hsla(60, 100%, 50%, .4); */
+}
+
+.head, .content {
+/*  background-color: lightgreen;  */
+}
+
+.profile-image, .name-headline, .about, .links {
+/*  background-color: rgb(206, 139, 234); */
+}
+
+.profile-card {
+  width: 480px;
+  max-width: calc(100vw - 10px);
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: Franklin Gothic Medium,Franklin Gothic,ITC Franklin Gothic,Arial,sans-serif;
+}
+
+.head, .links {
+  text-align: center;
+}
+
+.head, .content {
+  width: 90%;
+  margin: 0 auto;
+}
+
+img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+}
+
+.profile-image {
+  margin-top: -60px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  display: inline;
+}
+
+.head, .about {
+  margin-bottom: 10%;
+}
+
+.content {
+  padding: 5% 10%;
+}
+
+body {
+  background: url('http://i.imgur.com/9kh3G8L.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+
+.profile-card {
+  background-color: hsla(0, 0%, 100%, .5);
+  border-radius: 4px;
+  box-shadow: hsla(0, 0%, 0%, .8) 10px 10px 80px;
+}
+
+img {
+  padding: 1px;
+  background-color: #666;
+  filter: grayscale(50%);
+}
+
+.content {
+  border-top: 1px solid hsla(0, 0%, 30%, .8);
+}
+
+img:hover {
+  transform: scale(1.1);
+  transition: all 0.6s ease-in-out;
+  filter: grayscale(20%);
+}
+</style>
+</head>
+<body>
+
+  <div class="profile-card">
+    <div class="head">
+      <div class="profile-image">
+        <img src="https://i.imgur.com/EcO1qil.jpg" rel="Attila Nagy">
+      </div>
+      <div class="name-headline">
+        <h1>Attila Nagy</h1>
+        <h2>packaging designer</h2>
+        <span>from</span>
+        <p><i class="fa fa-map-marker"></i> Budapest, HU</p>
+    </div>
+  </div>
+  <div class="content">
+    <p class="about">
+      I love to fiddle with the tiny details of packaging design. You'll most likely find me on Twitter talking about design or photography or on Instagram where I post way too many photos of my beautiful cat #PrincessImre.
+    </p>
+    <section class="links">
+      <h2>Contact me via:</h2>
+      <ul>
+        <li><a href="https://twitter.com/#"><i class="fa fa-2x fa-twitter fa_square" aria-hidden="ture"></i></a></li>
+       <li><a href="https://instagram.com/#"><i class="fa fa-2x fa-instagram fa_square" aria-hidden="ture"></i></a></li>
+        <li><a href="https://behance.net/#"><i class="fa fa-2x fa-behance fa_square" aria-hidden="ture"></i></a></li>
+      </ul>
+    </section>
+    </div>
+  </div>
+
+</body>
+</html>
